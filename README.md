@@ -102,14 +102,20 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
 
 ##  How to Run the Program
 
-1. Open Visual Studio Code and make sure that the file structure is the same as the one shown in **Project Structure**
-2. Open the `Main.java ` file
-3. Press Ctrl + ` to open the terminal
-4. Compile the project using this command in the termanl:
+1. Download the code from the repository as a ZIP file.
+2. Extract the contents of the ZIP file into a folder.
+3. Open Visual Studio Code and select the "Open Folder" option.
+4. Open the `HogwartsGame` Folder from the extracted folder.
+5. Open the `Main.java ` file
+6. Press Ctrl + ` to open the terminal, the prompt should look something like this:
+   ```
+   PS C:\Users\Rheman Pasia\Downloads\Hogwarts-Adventure-Game-main\Hogwarts-Adventure-Game-main\HogwartsGame>
+   ```
+7. Compile the project using this command in the termanl:
    ```
     javac -d bin src/*.java src/characters/*.java src/game/*.java src/locations/*.java src/spells/*.java
    ```
-5. Run the project using this command:
+8. Run the project using this command:
    ```
    java -cp bin Main
    ```
