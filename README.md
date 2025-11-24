@@ -111,7 +111,7 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
    ```
    PS C:\Users\Rheman Pasia\Downloads\Hogwarts-Adventure-Game-main\Hogwarts-Adventure-Game-main\HogwartsGame>
    ```
-7. Compile the project using this command in the termanl:
+7. Compile the project using this command in the terminal:
    ```
     javac -d bin src/*.java src/characters/*.java src/game/*.java src/locations/*.java src/spells/*.java
    ```
