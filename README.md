@@ -107,7 +107,7 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
 3. Press Ctrl + ` to open the terminal
 4. Compile the project using this command in the termanl:
    ```
-    javac -d bin src/**/*.java src/Main.java
+    javac -d bin src/*.java src/characters/*.java src/game/*.java src/locations/*.java src/spells/*.java
    ```
 5. Run the project using this command:
    ```
