@@ -126,7 +126,7 @@ For **VSCode**, run the program using this command on the terminal:
    ```
 For the **Command Prompt**, first navigate to the src folder and right click on it, select "Open with Terminal" and you should be met with this line:
 ```
-PS C:\Users\Rheman Pasia\Downloads\CS - 2103\OOP\Activities\HogwartsGame\HogwartsGame\src>
+PS C:\Users\Rheman Pasia\Downloads\Hogwarts-Adventure-Game-main\Hogwarts-Adventure-Game-main\HogwartsGame\src>
 ```
 If the program has been compiled properly, run this command:
 ```
