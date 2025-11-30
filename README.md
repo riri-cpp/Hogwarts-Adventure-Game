@@ -102,6 +102,7 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
 
 ##  How to Run the Program
 
+### Compiling the Program
 1. Download the code from the repository as a ZIP file.
 2. Extract the contents of the ZIP file into a folder. The folder should have the following structure:
    ```
@@ -118,10 +119,19 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
    ```
     javac -d bin src/*.java src/characters/*.java src/game/*.java src/locations/*.java src/spells/*.java
    ```
-9. Run the program using this command:
+### Running the Program
+For **VSCode**, run the program using this command on the terminal:
    ```
    java -cp bin Main
    ```
+For the **Command Prompt**, first navigate to the src folder and right click on it, select "Open with Terminal" and you should be met with this line:
+```
+PS C:\Users\Rheman Pasia\Downloads\CS - 2103\OOP\Activities\HogwartsGame\HogwartsGame\src>
+```
+If the program has been compiled properly, run this command:
+```
+java Main.java
+```
 
 ## Sample Outputs
 
