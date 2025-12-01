@@ -1473,6 +1473,9 @@ public class GameEngine {
                 chooseEnding("bad");
                 break;
             default:
+                System.out.println("You try to grab the diary with your bare hands...");
+                completeQuest5();
+                chooseEnding("bad");
                 break;
         }
     }
