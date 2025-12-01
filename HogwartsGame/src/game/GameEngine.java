@@ -129,10 +129,21 @@ public class GameEngine {
     }
     
     private void showTitle() {
-        System.out.println("╔══════════════════════════════════════╗");
-        System.out.println("║         HOGWARTS ADVENTURE           ║");
-        System.out.println("║        THE CHAMBER'S LEGACY          ║");
-        System.out.println("╚══════════════════════════════════════╝");
+        System.out.println("               ██╗░░██╗░█████╗░░██████╗░░██╗░░░░░░░██╗░█████╗░██████╗░████████╗░██████╗");
+        System.out.println("               ██║░░██║██╔══██╗██╔════╝░░██║░░██╗░░██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝");
+        System.out.println("               ███████║██║░░██║██║░░██╗░░╚██╗████╗██╔╝███████║██████╔╝░░░██║░░░╚█████╗░");
+        System.out.println("               ██╔══██║██║░░██║██║░░╚██╗░░████╔═████║░██╔══██║██╔══██╗░░░██║░░░░╚═══██╗");
+        System.out.println("               ██║░░██║╚█████╔╝╚██████╔╝░░╚██╔╝░╚██╔╝░██║░░██║██║░░██║░░░██║░░░██████╔╝");
+        System.out.println("               ╚═╝░░╚═╝░╚════╝░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░");
+        System.out.println("");
+        System.out.println("                ░█████╗░██████╗░██╗░░░██╗███████╗███╗░░██╗████████╗██╗░░░██╗██████╗░███████╗");
+        System.out.println("                ██╔══██╗██╔══██╗██║░░░██║██╔════╝████╗░██║╚══██╔══╝██║░░░██║██╔══██╗██╔════╝");
+        System.out.println("                ███████║██║░░██║╚██╗░██╔╝█████╗░░██╔██╗██║░░░██║░░░██║░░░██║██████╔╝█████╗░░");
+        System.out.println("                ██╔══██║██║░░██║░╚████╔╝░██╔══╝░░██║╚████║░░░██║░░░██║░░░██║██╔══██╗██╔══╝░░");
+        System.out.println("                ██║░░██║██████╔╝░░╚██╔╝░░███████╗██║░╚███║░░░██║░░░╚██████╔╝██║░░██║███████╗");
+        System.out.println("                ╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░░╚═════╝░╚═╝░░╚═╝╚══════╝");
+        System.out.println("=============================================================================================================");
+        System.out.println("                                        THE CHAMBER'S LEGACY");
         System.out.println("\nPress Enter to begin...");
         scanner.nextLine();
         clearTerminal();
@@ -140,6 +151,17 @@ public class GameEngine {
     
     private void createPlayer() {
         while(true){
+            System.out.println("     ╔═════════════════════════════════════════════════════════════╗");
+            System.out.println("╔═══════════════════════════════════════════════════════════════════════╗");
+            System.out.println("║                                                                       ║");
+            System.out.println("║                                                                       ║");
+            System.out.println("║                                                                       ║");
+            System.out.println("║                                                                       ║");
+            System.out.println("║      FROM: PROFESSOR ALBUS DUMBLEDORE           TO: THE CHOSEN ONE    ║");
+            System.out.println("║      Headmaster, Hogwarts School of Witchcraft and Wizardry           ║");
+            System.out.println("║                                                                       ║");
+            System.out.println("║                                                                       ║");
+            System.out.println("╚═══════════════════════════════════════════════════════════════════════╝");
             System.out.println("A Hogwarts letter arrives by owl...");
             String name = getInputWithClear("Enter your name: ");
             player = new Player(name);
@@ -159,7 +181,13 @@ public class GameEngine {
     }
     
     private void sortingCeremony() {
-        System.out.println("--- SORTING CEREMONY ---");
+        System.out.println("  __,                           ,___                               ");
+        System.out.println(" (           _/_o              /   /                               ");
+        System.out.println("  `.  __ _   / ,  _ _   _,    /    _  _   _  _ _ _   __ _ _   __  ,");
+        System.out.println("(___)(_)/ (_(__(_/ / /_(_)_  (___/(/_/ (_(/_/ / / /_(_)/ / /_/ (_/_");
+        System.out.println("                        /|                                      /  ");
+        System.out.println("                       (/                                      '   ");
+    
         System.out.println("The Sorting Hat is placed on your head...");
         
         boolean sorted = false;
@@ -208,8 +236,12 @@ public class GameEngine {
     }
     
     private void mainGameLoop() {
-        System.out.println("--- YOUR HOGWARTS LIFE BEGINS ---");
-        System.out.println("You have 5 days of magical adventures ahead!");
+        System.out.println("  __     __)          ____  ___)                            _                ______                     / ");
+        System.out.println(" (, )   /            (, /   /                           ___/__) ,  /)       (, /    )       ,          /  ");
+        System.out.println("   /   / ___  __       /---/ ___  _   _ _  __ _/_ _    (, /       //  _       /---(   _ _    __  _    /   ");
+        System.out.println("  (___/_(_(_(/ (_   ) /   (_(_(_/_(_(/ (_(/ (_(__/_)_    /    _(_/(__(/_   ) / ____)_(/(_/_(_/ (/_)_ o    ");
+        System.out.println(" )   /             (_/       .-/                        (_____  /)        (_/ (       .-/                 ");
+        System.out.println("(__ /                       (_/                                (/                    (_/                  ");
         waitForEnter();
         clearTerminal();
         
@@ -217,9 +249,9 @@ public class GameEngine {
         int actionsPerDay = 10;
         
         for (int day = 1; day <= totalDays; day++) {
-            System.out.println("══════════════════════════════════════");
-            System.out.println("             DAY " + day + " MORNING");
-            System.out.println("══════════════════════════════════════");
+            System.out.println("══════════════════════════════════════════════════════════════════════════════");
+            System.out.println("                                DAY " + day + " MORNING");
+            System.out.println("══════════════════════════════════════════════════════════════════════════════");
             System.out.println("You wake up refreshed and ready for a new day!");
             waitForEnter();
             clearTerminal();
@@ -229,26 +261,21 @@ public class GameEngine {
             
             // Daily actions loop
             for (int dailyAction = 1; dailyAction <= actionsPerDay; dailyAction++) {
-                System.out.println("══════════════════════════════════════");
-                System.out.println("DAY " + day + " | Action " + dailyAction + "/" + actionsPerDay);
-                System.out.println("══════════════════════════════════════");
+                System.out.println("═══════════════════════════════════════════════════════════════════════════════════════════════════");
+                System.out.println("                                      DAY " + day + " | Action " + dailyAction + "/" + actionsPerDay);
+                System.out.println("═══════════════════════════════════════════════════════════════════════════════════════════════════");
                 
                 showLocationScreen();
                 String choice = getInputWithClear("\nChoose: ");
                 processAction(choice);
                 gameState.incrementActions();
                 
-                // Check for early game completion
-                if (gameState.canAdvanceToEndgame() && player.canCastComplexSpell()) {
-                    gameState.setGameCompleted(true);
-                    return;
-                }
             }
             
             // End of day summary
-            System.out.println("══════════════════════════════════════");
-            System.out.println("          END OF DAY " + day);
-            System.out.println("══════════════════════════════════════");
+            System.out.println("══════════════════════════════════════════════════════════════════════════════");
+            System.out.println("                                END OF DAY " + day);
+            System.out.println("══════════════════════════════════════════════════════════════════════════════");
             System.out.println("You return to your dormitory and fall asleep...");
             player.increaseKnowledge(5);
             player.increaseMagic(3);
@@ -948,9 +975,9 @@ public class GameEngine {
     // quest line
     private void triggerQuest1() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════");
-        System.out.println("          NIGHT OF DAY 2");
-        System.out.println("══════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                              NIGHT OF DAY 2");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
         System.out.println("Night falls at Hogwarts...");
         System.out.println("The castle halls are quiet... eerily quiet.");
         waitForEnter();
@@ -962,7 +989,7 @@ public class GameEngine {
         System.out.println("Your chest tightens a little. Something is wrong.");
         waitForEnter();
 
-        System.out.println("*** QUEST 1 UNLOCKED ***\n");
+        System.out.println("****************************** QUEST 1 UNLOCKED *****************************\n");
         System.out.println("QUEST: INVESTIGATE THE STRANGE WHISPER IN THE HALLWAY\n");
         
         System.out.println("What will you do?");
@@ -1027,7 +1054,7 @@ public class GameEngine {
     }
 
     private void completeQuest1() {
-        System.out.println("*** QUEST 1 COMPLETED ***\n");
+        System.out.println("****************************** QUEST 1 COMPLETED *****************************\n");
         System.out.println("You hurry back to your dorm.");
         System.out.println("Tonight, you sleep — but uneasily.");
         System.out.println("Something dark... has begun.");
@@ -1039,9 +1066,9 @@ public class GameEngine {
 
     private void triggerQuest2() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════");
-        System.out.println("          DAY 3 - MORNING");
-        System.out.println("══════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                              DAY 3 - MORNING");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
         System.out.println("As you enter the Great Hall, something feels different today.");
         System.out.println("Students are whispering. The atmosphere feels heavy.");
         System.out.println("Professor McGonagall suddenly walks to the center of the hall.");
@@ -1066,7 +1093,7 @@ public class GameEngine {
         System.out.println("\"Classes will continue -- but all students must be vigilant.\"");
         waitForEnter();
         
-        System.out.println("*** QUEST 2 UNLOCKED ***\n");
+        System.out.println("****************************** QUEST 2 UNLOCKED *****************************\n");
         System.out.println("QUEST: FIND YOUR FIRST CLUE ABOUT LUNA'S DISAPPEARANCE");
         gameState.setCurrentQuest("Find clues about Luna's disappearance");
         gameState.setQuest2InvestigationStarted(true);
@@ -1077,9 +1104,9 @@ public class GameEngine {
 
     private void startLunaInvestigation() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════════════");
-        System.out.println("    LUNA'S DISAPPEARANCE - INVESTIGATION");
-        System.out.println("══════════════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                     LUNA'S DISAPPEARANCE - INVESTIGATION");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
         System.out.println("Where will you begin your investigation?");
         System.out.println("1. Go talk to Ginny Weasley (she looks most affected)");
         System.out.println("2. Inspect the Library (maybe Luna left something behind)");
@@ -1134,7 +1161,7 @@ public class GameEngine {
         gameState.setQuest2Completed(true);
         gameState.setMainQuestProgress(2);
         gameState.setCurrentQuest("Investigate the Library for Luna's clues");
-        System.out.println("*** QUEST 2 COMPLETED ***\n");
+        System.out.println("****************************** QUEST 2 COMPLETED *****************************\n");
         System.out.println("You have confirmed Luna was last seen heading toward the Library");
         System.out.println("You found evidence that something was disturbed in the library...");
         waitForEnter();
@@ -1143,11 +1170,13 @@ public class GameEngine {
 
     private void triggerQuest3() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════");
-        System.out.println("          DAY 3 - NIGHT");
-        System.out.println("══════════════════════════════════════");
-        System.out.println("You have confirmed that Luna was last seen in the library, you sneak out at night and quietly scour the library for more clues...");
-        System.out.println("As you continue researching Luna's disappearance, you discover a sealed dusty drawer inside the Restricted Section.");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                             DAY 3 - NIGHT");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("You have confirmed that Luna was last seen in the library, you sneak out at"); 
+        System.out.println("night and quietly scour the library for more clues...");
+        System.out.println("As you continue researching Luna's disappearance, you discover a sealed dusty"); 
+        System.out.println("drawer inside the Restricted Section.");
         System.out.println("The lock suddenly glows a strange dark energy. Something very old... very cursed.");
         waitForEnter();
 
@@ -1158,7 +1187,7 @@ public class GameEngine {
         System.out.println("What am I?\"");
         waitForEnter();
 
-        System.out.println("*** QUEST 3 UNLOCKED ***\n");
+        System.out.println("****************************** QUEST 3 UNLOCKED *****************************\n");
         System.out.println("QUEST: ANSWER THE RIDDLE CORRECTLY.\n");
         System.out.println("You think of 3 possible answers:");
         System.out.println("1. A mirror");
@@ -1202,7 +1231,7 @@ public class GameEngine {
     private void completeQuest3() {
         gameState.setQuest3Completed(true);
         gameState.setMainQuestProgress(3);
-        System.out.println("\n*** QUEST 3 COMPLETED ***\n");
+        System.out.println("****************************** QUEST 3 COMPLETED *****************************\n");
         System.out.println("You hurry back to your dorm.");
         waitForEnter();
         clearTerminal();
@@ -1250,9 +1279,9 @@ public class GameEngine {
 
     private void triggerQuest4Main() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════");
-        System.out.println("          DAY 4 - NIGHT");
-        System.out.println("══════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                               DAY 4 - NIGHT");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
 
         System.out.println("\nNight falls...");
         System.out.println("You can't sleep.");
@@ -1272,7 +1301,7 @@ public class GameEngine {
 
         waitForEnter();
         clearTerminal();
-        System.out.println("*** QUEST 4 UNLOCKED ***\n");
+        System.out.println("****************************** QUEST 4 UNLOCKED *****************************\n");
         System.out.println("You snuck into the Library once again.");
         System.out.println("You quietly snuck into the RESTRICTED SECTION.");
         System.out.println("Candle flames flicker softly as rows of ancient leather-bound");
@@ -1355,7 +1384,7 @@ public class GameEngine {
         System.out.println("You move closer to the truth...");
         waitForEnter();
 
-        System.out.println("*** QUEST 4 COMPLETED ***\n");
+        System.out.println("****************************** QUEST 4 COMPLETED *****************************\n");
         System.out.println("You read about a new spell: [FINITE INCANTATEM]");
         player.increaseMagic(20);
 
@@ -1366,9 +1395,9 @@ public class GameEngine {
 
     private void triggerQuest5() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════");
-        System.out.println("          DAY 5 - NIGHT");
-        System.out.println("══════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                              DAY 5 - NIGHT");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
         System.out.println("You follow the faint magical signature deep into the castle...");
         System.out.println("The air becomes colder... the walls shift... torches flicker.");
         
@@ -1382,9 +1411,9 @@ public class GameEngine {
         System.out.println("You fall into a dark chamber...");
 
         waitForEnter();
-        System.out.println("══════════════════════════════════════════════════════════════");
-        System.out.println("          CHAMBER OF SECRETS - FINAL CONFRONTATION");
-        System.out.println("══════════════════════════════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                   CHAMBER OF SECRETS - FINAL CONFRONTATION");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
 
         waitForEnter();
         clearTerminal();
@@ -1453,7 +1482,7 @@ public class GameEngine {
         gameState.setMainQuestProgress(5);
 
         waitForEnter();
-        System.out.println("*** QUEST 5 COMPLETED ***");
+        System.out.println("**************************** FINAL QUEST COMPLETED ***************************\n");
     }
 
     private void badEnding() {
@@ -1475,9 +1504,9 @@ public class GameEngine {
 
         waitForEnter();
         clearTerminal();
-        System.out.println("═════════════════════════════════════════════════════════════════");
-        System.out.println("         GAME OVER - Voldemort's darkness spreads further");
-        System.out.println("═════════════════════════════════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("               GAME OVER - Voldemort's darkness spreads further");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
 
         waitForEnter();
         showEnding();
@@ -1524,9 +1553,9 @@ public class GameEngine {
 
         waitForEnter();
         clearTerminal();
-        System.out.println("═════════════════════════════════════════════════════════════════");
-        System.out.println("          THE END - Thank you for protecting Hogwarts!");
-        System.out.println("═════════════════════════════════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                 THE END - Thank you for protecting Hogwarts!");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
 
         waitForEnter();
         showEnding();
@@ -1543,9 +1572,9 @@ public class GameEngine {
 
     private void showEnding() {
         clearTerminal();
-        System.out.println("══════════════════════════════════════");
-        System.out.println("          END OF GAME RESULTS");
-        System.out.println("══════════════════════════════════════");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
+        System.out.println("                              END OF GAME RESULTS");
+        System.out.println("══════════════════════════════════════════════════════════════════════════════");
         
         player.displayStatus();
         System.out.println();
