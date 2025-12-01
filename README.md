@@ -87,11 +87,14 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
    ```
     javac -d bin src/*.java src/characters/*.java src/game/*.java src/locations/*.java src/spells/*.java
    ```
+9. VSCode should automaticall create a `bin` folder that contains all the compiled classes.
 ### Running the Program
 For **VSCode**, run the program using this command on the terminal:
    ```
    java -cp bin Main
    ```
+To avoid VSCode making duplicate compiled classes in the `src` folder, make sure to always use the `Run Java` option when running the program.
+
 For the **Command Prompt**, first navigate to the src folder and right click on it, select "Open with Terminal" and you should be met with this line:
 ```
 PS C:\Users\Rheman Pasia\Downloads\Hogwarts-Adventure-Game-main\Hogwarts-Adventure-Game-main\HogwartsGame\src>
@@ -105,19 +108,30 @@ java Main.java
 
 ### Start of the Game
 ```
-╔══════════════════════════════════════╗
-║         HOGWARTS ADVENTURE           ║
-║        THE CHAMBER'S LEGACY          ║
-╚══════════════════════════════════════╝
+               ██╗░░██╗░█████╗░░██████╗░░██╗░░░░░░░██╗░█████╗░██████╗░████████╗░██████╗
+               ██║░░██║██╔══██╗██╔════╝░░██║░░██╗░░██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
+               ███████║██║░░██║██║░░██╗░░╚██╗████╗██╔╝███████║██████╔╝░░░██║░░░╚█████╗░
+               ██╔══██║██║░░██║██║░░╚██╗░░████╔═████║░██╔══██║██╔══██╗░░░██║░░░░╚═══██╗
+               ██║░░██║╚█████╔╝╚██████╔╝░░╚██╔╝░╚██╔╝░██║░░██║██║░░██║░░░██║░░░██████╔╝
+               ╚═╝░░╚═╝░╚════╝░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░
+
+                ░█████╗░██████╗░██╗░░░██╗███████╗███╗░░██╗████████╗██╗░░░██╗██████╗░███████╗
+                ██╔══██╗██╔══██╗██║░░░██║██╔════╝████╗░██║╚══██╔══╝██║░░░██║██╔══██╗██╔════╝
+                ███████║██║░░██║╚██╗░██╔╝█████╗░░██╔██╗██║░░░██║░░░██║░░░██║██████╔╝█████╗░░
+                ██╔══██║██║░░██║░╚████╔╝░██╔══╝░░██║╚████║░░░██║░░░██║░░░██║██╔══██╗██╔══╝░░
+                ██║░░██║██████╔╝░░╚██╔╝░░███████╗██║░╚███║░░░██║░░░╚██████╔╝██║░░██║███████╗
+                ╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░░╚═════╝░╚═╝░░╚═╝╚══════╝
+=============================================================================================================
+                                        THE CHAMBER'S LEGACY
 
 Press Enter to begin...
 ```
 
 ### Main Menu
 ```
-══════════════════════════════════════
-DAY 1 | Action 1/10
-══════════════════════════════════════
+═══════════════════════════════════════════════════════════════════════════════════════════════════
+                                      DAY 1 | Action 1/10
+═══════════════════════════════════════════════════════════════════════════════════════════════════
 You're in the Great Hall. The enormous main hall with four long house tables and enchanted ceiling
 The ceiling shows a cloudy sky. Students are eating and chatting.
 
@@ -130,7 +144,7 @@ What would you like to do?
 6. View game progress
 7. Cast spells
 
-Choose:
+Choose: 
 ```
 
 ### Player Stats Menu
