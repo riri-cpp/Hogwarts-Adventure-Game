@@ -87,7 +87,7 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
    ```
     javac -d bin src/*.java src/characters/*.java src/game/*.java src/locations/*.java src/spells/*.java
    ```
-9. VSCode should automaticall create a `bin` folder that contains all the compiled classes.
+9. VSCode should automatically create a `bin` folder that contains all the compiled classes.
 ### Running the Program
 For **VSCode**, run the program using this command on the terminal:
    ```
