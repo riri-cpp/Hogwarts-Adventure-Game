@@ -29,33 +29,6 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
 ```
 
 📂 HogwartsGame/
-├── 📂 bin/
-│  ├── 📂 game/
-│  │   ├── ☕ GameEngine$1.class
-│  │   ├── ☕ GameEngine$2.class
-│  │   ├── ☕ GameEngine.class
-│  │   ├── ☕ GameState.class
-│  │   └── ☕ Player.class
-│  ├── 📂 characters/
-│  │   ├── ☕ Character.class
-│  │   ├── ☕ DracoMalfoy.class
-│  │   ├── ☕ HarryPotter.class
-│  │   ├── ☕ HermioneGranger.class
-│  │   ├── ☕ LunaLovegood.class
-│  │   ├── ☕ RonWeasley.class
-│  │   └── ☕ Student.class
-│  ├── 📂 locations/
-│  │   ├── ☕ Classroom.class
-│  │   ├── ☕ GreatHall.class
-│  │   ├── ☕ Library.class
-│  │   └── ☕ Location.class
-│  ├── 📂 spells/
-│  │   ├── ☕ FiniteIncantatem.class
-│  │   ├── ☕ Lumos.class
-│  │   ├── ☕ WingardiumLeviosa.class
-│  │   └── ☕ Spell.class                  
-│  └── ☕ Main.class
-│
 ├──📂 src/
 │   ├── 📂 game/
 │   │   ├── ☕ GameEngine.java
@@ -87,11 +60,6 @@ Polymorphism is demonstrated by the ``reactToAction(action)`` method. The ``Game
 
 ```
 - `📂 HogwartsGame/` – Root folder of the project
-  - `📂 bin/` – Contains compiled `.class` files
-    - `📂 game/` – Compiled files for game engine, player, and game state
-    - `📂 characters/` – Compiled files for all characters and NPCs
-    - `📂 locations/` – Compiled files for all locations
-    - `📂 spells/` – Compiled files for all spells
   - `📂 src/` – Contains all source code (`.java` files)
     - `📂 game/` – Source code for game engine, player, and game state
     - `📂 characters/` – Source code for all characters and NPCs
