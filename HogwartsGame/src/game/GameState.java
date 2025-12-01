@@ -175,9 +175,11 @@ public class GameState {
     
     // Simple victory condition
     public boolean canAdvanceToEndgame() {
-        return getStoryFlag("met_harry") && 
-               getStoryFlag("heard_voices") && 
-               isCharacterFriend("Harry Potter");
+        return isQuest1Completed() && 
+            isQuest2Completed() && 
+            isQuest3Completed() && 
+            isQuest4Completed() && 
+            isQuest5Completed();
     }
     
     // Simple display
